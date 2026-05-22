@@ -1,1 +1,1 @@
-web: python app.py
+web: python telegram_bot_enhanced.py 5
