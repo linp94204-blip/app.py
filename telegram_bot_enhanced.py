@@ -72,11 +72,11 @@ def quick_links_markup():
         types.InlineKeyboardButton("🌐 Blogspot", url="https://phyowailin34.blogspot.com/?m=1"),
         types.InlineKeyboardButton("🌳 Linktree", url="https://linktr.ee/Linp9"),
         # YouTube လင့်ခ်အသစ် နှစ်ခုကို ဤနေရာတွင် ထည့်သွင်းထားပါသည်
-        types.InlineKeyboardButton("📺 YouTube Channel 1", url="https://www.youtube.com/@DigitalWealthTips-q8i"),
+        types.InlineKeyboardButton("📺 YouTube Channel 1", url="Https://www.youtube.com/@DigitalWealthTips-q8i"),
         types.InlineKeyboardButton("📺 YouTube Channel 2", url="https://youtube.com/@phyowailin-l1z")
     ]
     markup.add(*btns)
-    markup.row(types.InlineKeyboardButton("📢Main VIP Channel 🚀", url="https://t.me/kophyowailin553"))
+    markup.row(types.InlineKeyboardButton("📢Main VIP Channel 🚀 ", url=https://t.me/kophyowailin553")
     return markup
 
 def main_menu_markup(user_id):
@@ -116,7 +116,7 @@ def handle_msg(message):
         bot.send_message(message.chat.id, msg)
     
     elif message.text == '🔗 All My Channels':
-        bot.send_message(message.chat.id, "📌 Official Channel:\nhttps://t.me/kophyowailin553")
+        bot.send_message(message.chat.id, "📌 My Channels:\nhttps://t.me/addlist/hxXljt7C9fEwNmI1")
     
     elif message.text == '👨‍👩‍👧‍👦 Refer & Earn':
         bot_info = bot.get_me()
@@ -150,7 +150,7 @@ def handle_msg(message):
 
     elif message.text == '⚙️ Admin: User စစ်ရန်' and user_id == ADMIN_ID:
         total_users = len(user_data)
-        bot.send_message(message.chat.id, f"📊 စုစုပေါင်း User: {total_users} ယောက်")
+        bot.send_message(message.chat.id, f"📊 สรุปစုစုပေါင်း User: {total_users} ယောက်")
 
 # --- FLASK SERVER & BOT STARTING ---
 app = Flask(__name__)
